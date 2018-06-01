@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 353445087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SoapStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "scenario description",
+        "description": "",
+        "id": "soap-request-with-rest-assured;scenario-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246753719,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a request with bank code 10120800 is send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10120800",
+                  "offset": 25
+                }
+              ],
+              "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496027592,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "bank name in response xml should be VON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VON",
+                  "offset": 36
+                }
+              ],
+              "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@soap1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SoapStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "scenario description",
+        "description": "",
+        "id": "soap-request-with-rest-assured;scenario-description;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 259163726,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a request with bank code 45261547 is send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45261547",
+                  "offset": 25
+                }
+              ],
+              "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36262089,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "bank name in response xml should be Volksbank",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volksbank",
+                  "offset": 36
+                }
+              ],
+              "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@soap1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 98732,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SoapStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "scenario description",
+        "description": "",
+        "id": "soap-request-with-rest-assured;scenario-description;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152220941,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a request with bank code 50662299 is send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50662299",
+                  "offset": 25
+                }
+              ],
+              "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11315132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "bank name in response xml should be Raiffeisenbank",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raiffeisenbank",
+                  "offset": 36
+                }
+              ],
+              "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@soap1"
+          }
+        ]
+      }
+    ],
+    "name": "SOAP request with Rest Assured",
+    "description": "",
+    "id": "soap-request-with-rest-assured",
+    "keyword": "Feature",
+    "uri": "SoapRestAssuredExample.feature"
+  }
+]
