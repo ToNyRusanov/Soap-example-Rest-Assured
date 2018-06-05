@@ -25,8 +25,8 @@ public class SoapStepDef {
 	private XmlPath xmlPath ;
 	
 	
-	//In this hook is to set up the url with wsdl path. 
-	@Before("@soap1")
+	//This hook is to set up the url with wsdl path. 
+	@Before("@soap")
 	public void setUp() {
 		RestAssured.baseURI = "http://www.thomas-bayer.com";
 		RestAssured.basePath = "/axis2/services/BLZService?wsdl";
@@ -53,7 +53,7 @@ public class SoapStepDef {
 	@Then("^bank name in response xml should be (.*)$")
 	public void bank_name_in_response_xml_should_be(String bankName)  {
 		
-		request.body = response.prettyPrint();
+		request.setBody(response.prettyPrint());
 		
 		this.xmlPath = response.xmlPath();
 		request.setXmlNode(xmlPath.getString("ns1:bezeichnung"));
@@ -62,7 +62,7 @@ public class SoapStepDef {
 	    String bank = request.getXmlNode().split(" ")[0];
 	  
 	   
-	   assertEquals(bankName, bank);
+	   assertEquals("Bank name is different",bankName, bank);
 		
 	}
 

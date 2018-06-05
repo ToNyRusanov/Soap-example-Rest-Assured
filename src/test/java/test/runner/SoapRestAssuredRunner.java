@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
         plugin = {
                 "pretty", "html:target/cucumber-reports",
                 "json:target/cucumber-reports/cucumber.json"},
-        tags = {"@soap1"})
+        tags = {"@soap"})
 public class SoapRestAssuredRunner {
 
 	

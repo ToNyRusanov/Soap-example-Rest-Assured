@@ -72,7 +72,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 353445087,
+  "duration": 414872403,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
 });
 formatter.result({
-  "duration": 1246753719,
+  "duration": 1476482023,
   "status": "passed"
 });
 formatter.match({
@@ -128,11 +128,11 @@ formatter.match({
   "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
 });
 formatter.result({
-  "duration": 496027592,
+  "duration": 638991980,
   "status": "passed"
 });
 formatter.before({
-  "duration": 40198,
+  "duration": 41961,
   "status": "passed"
 });
 formatter.scenario({
@@ -175,7 +175,7 @@ formatter.match({
   "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
 });
 formatter.result({
-  "duration": 259163726,
+  "duration": 149036103,
   "status": "passed"
 });
 formatter.match({
@@ -188,11 +188,11 @@ formatter.match({
   "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
 });
 formatter.result({
-  "duration": 36262089,
+  "duration": 19883376,
   "status": "passed"
 });
 formatter.before({
-  "duration": 98732,
+  "duration": 111427,
   "status": "passed"
 });
 formatter.scenario({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "SoapStepDef.a_request_with_bank_code_is_send(String)"
 });
 formatter.result({
-  "duration": 152220941,
+  "duration": 147142196,
   "status": "passed"
 });
 formatter.match({
@@ -248,7 +248,7 @@ formatter.match({
   "location": "SoapStepDef.bank_name_in_response_xml_should_be(String)"
 });
 formatter.result({
-  "duration": 11315132,
+  "duration": 11706889,
   "status": "passed"
 });
 });

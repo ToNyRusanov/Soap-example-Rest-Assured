@@ -6,7 +6,7 @@ public class CreateRequest {
 	
 	private String bankCode ;
 	
-	public String body;
+	private String body;
 	private String xmlNode;
 	public String getBody() {
 		return body;
